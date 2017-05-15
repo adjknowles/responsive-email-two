@@ -1,0 +1,662 @@
+<!doctype html>
+<html>
+<head>
+<link rel="Shortcut Icon" href="http://media.jigsaw-online.com/pws/images/favicon.ico">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, width=device-width">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<title>responsive-email-two</title>
+
+<style>
+
+div,
+p,
+a,
+li,
+td {
+    -webkit-text-size-adjust: none
+}
+
+body {
+    letter-spacing: 0;
+    -webkit-text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Arial', Verdana, sans-serif
+}
+
+body[class="body_style"],
+table[class="body_style"] {
+    background-color: #fff
+}
+
+@media only screen and (min-device-width: 481px) {
+    .bullet-cta {
+        display: none
+    }
+    .bullet-cta2 {
+        display: none
+    }
+    .bullet-cta3 {
+        display: none
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px),
+(max-width: 480px) {
+    .bullet-cta2 {
+        border: 2px solid #f5523d;
+        color: #000!important;
+        display: inline-block!important;
+        letter-spacing: .2em!important;
+        line-height: 38px!important;
+        text-align: center!important;
+        text-decoration: none!important;
+        width: 280px!important;
+        -webkit-text-size-adjust: none!important;
+        mso-hide: all!important;
+        background-color: #fff!important
+    }
+    .bullet-cta3 {
+        border: 2px solid #000;
+        color: #000!important;
+        display: inline-block!important;
+        letter-spacing: .2em!important;
+        line-height: 44px!important;
+        text-align: center!important;
+        text-decoration: none!important;
+        width: 280px!important;
+        -webkit-text-size-adjust: none!important;
+        mso-hide: all!important;
+        background-color: #f1f1f1!important
+    }
+    .bullet-cta4 {
+        background: #e7ded5!important;
+        color: #000!important;
+        display: inline-block!important;
+        letter-spacing: .2em!important;
+        line-height: 38px!important;
+        text-align: center!important;
+        text-decoration: none!important;
+        width: 280px!important;
+        -webkit-text-size-adjust: none!important;
+        mso-hide: all!important
+    }
+    .mobbackground {
+        background-color: #2e2a36!important
+    }
+    .emailButton {
+        max-width: 600px!important;
+        width: 100%!important
+    }
+    .emailButton a {
+        display: block!important;
+        font-size: 18px!important
+    }
+    table[class="main"],
+    td[class="main"],
+    img[class="main_img"] {
+        width: 300px!important;
+        height: auto!important
+    }
+	table[class="main-header"],
+    td[class="main-header"],
+    img[class="main_img-header"] {
+        width: 100%!important;
+        height: auto!important
+    }
+	table[class="main-body"],
+    td[class="main-body"],
+    img[class="main_img-body"] {
+        width: 100%!important;
+        height: auto!important
+    }
+    table[class="bmain"],
+    td[class="bmain"],
+    img[class="bmain_img"] {
+        width: 291px!important;
+        height: auto!important;
+        margin: 0 auto
+    }
+    table[class="hide"],
+    img[class="hide"],
+    td[class="hide"],
+    span[class="hide"] {
+        display: none!important
+    }
+    table[class="dir-line"],
+    td[class="dir-line"],
+    img[class="dir-line"] {
+        width: 60px!important
+    }
+    table[class="dir-text"],
+    td[class="dir-text"] {
+        width: 159px!important
+    }
+    div[class="mobilecontent"] {
+        display: block!important;
+        max-height: none!important
+    }
+    a[class="bullet-cta"] {
+        width: 90%!important;
+		line-height:50px!important;
+    }
+    img[class="img-300"] {
+        width: 300px!important;
+        height: auto!important
+    }
+	img[class="img-full"] {
+        width: 100%!important;
+        height: auto!important
+    }
+    img[class="img-300-2"] {
+        width: 250px!important;
+        height: auto!important
+    }
+    td[class="mob-menu"] {
+        width: 70px!important
+    }
+    td[class="headercell"] {
+        background-image: url(images/womanswear-mob.jpg);
+        width: 300px!important;
+        height: 250px!important
+    }
+    td[class="headercell-man"] {
+        background-image: url(images/menswear-mob.jpg);
+        width: 300px!important;
+        height: 250px!important
+    }
+    #mainlink {
+        position: absolute;
+        width: 300px;
+        height: 296px;
+        background-color: transparent
+    }
+    td[class="hero-img"] {
+        background-image: url(http://www.jigsaw-online.com/pws/client/images/emails/em863/responsive-mob-finals.jpg);
+        background-size: 300px 328px;
+        width: 300px!important;
+        height: 328px!important
+    }
+    span[class=deviceClick2] {
+        display: block!important;
+        width: 300px!important;
+        height: 328px!important
+    }
+    td[class="hero-img2"] {
+        background-image: url(http://www.jigsaw-online.com/pws/client/images/emails/em892/responsive-banner.jpg);
+        background-size: 300px 256px;
+        width: 300px!important;
+        height: 256px!important
+    }
+    span[class=deviceClick2] {
+        display: block!important;
+        width: 300px!important;
+        height: 256px!important
+    }
+    td[class="hero-img3"] {
+        background-image: url(http://www.jigsaw-online.com/pws/client/images/emails/em864/EM864-1.jpg);
+        background-size: 300px 528px;
+        width: 300px!important;
+        height: 528px!important
+    }
+    span[class=deviceClick3] {
+        display: block!important;
+        width: 300px!important;
+        height: 528px!important
+    }
+    td[class="hero-img4"] {
+        background-image: url(http://www.jigsaw-online.com/pws/client/images/emails/em864/EM864-2.jpg);
+        background-size: 300px 528px;
+        width: 300px!important;
+        height: 528px!important;
+        background-repeat: no-repeat
+    }
+    span[class=deviceClick4] {
+        display: block!important;
+        width: 300px!important;
+        height: 528px!important
+    }
+    td[class="hero-img5"] {
+        background-image: url(http://www.jigsaw-online.com/pws/client/images/emails/em920/responsive-banner-em920.jpg);
+        background-size: 300px 378px;
+        width: 300px!important;
+        height: 378px!important;
+        background-repeat: no-repeat
+    }
+    span[class=deviceClick5] {
+        display: block!important;
+        width: 300px!important;
+        height: 378px!important
+    }
+    td[class="hero-img6"] {
+        background-image: url(http://www.jigsaw-online.com/pws/client/images/emails/em896/responsive-banner.jpg);
+        background-size: 300px 256px;
+        width: 300px!important;
+        height: 256px!important
+    }
+    span[class=deviceClick10] {
+        display: block!important;
+        width: 300px!important;
+        height: 256px!important
+    }
+    td[class="hero-img7"] {
+        background-image: url(http://www.jigsaw-online.com/pws/client/images/emails/em806/responsive-banner-EM806_01.jpg);
+        background-size: 300px 273px;
+        width: 300px!important;
+        height: 273px!important
+    }
+    span[class=deviceClick11] {
+        display: block!important;
+        width: 300px!important;
+        height: 273px!important
+    }
+	td[class="hero-img8"] {
+        background-image: url(http://www.jigsaw-online.com/pws/client/images/emails/em950/Sale-Banner-Mobile_Responsive.jpg);
+        background-size: 300px 295px;
+        width: 300px!important;
+        height: 295px!important
+    }
+    span[class=deviceClick12] {
+        display: block!important;
+        width: 300px!important;
+        height: 295px!important
+    }
+	td[class="hero-img9"]{
+		background-image: url(http://www.jigsaw-online.com/pws/client/images/emails/em951/Replacement-Image1.jpg);
+		background-size:300px 528px;
+		width: 300px !important;
+		height: 528px !important;
+	}
+	span[class=deviceClick13] {
+        display: block!important;
+        width: 300px!important;
+        height: 528px!important
+    }
+	td[class="hero-img10"]{
+		background-image: url(http://www.jigsaw-online.com/pws/client/images/emails/em952-II/stores-header-mob.jpg);
+		background-size:300px 67px;
+		width: 300px !important;
+		height: 67px !important;
+	}
+	span[class=deviceClick14] {
+        display: block!important;
+        width: 300px!important;
+        height: 67px!important
+    }
+    td[class="product-lg-img1"] {
+        background-image: url(http://www.jigsaw-online.com/pws/client/images/emails/em917/EM917_v2_sliced_10_v2.jpg);
+        background-size: 250px 343px;
+        width: 250px!important;
+        height: 343px!important
+    }
+    td[class="product-lg-img2"] {
+        background-image: url(http://www.jigsaw-online.com/pws/client/images/emails/em917/EM917_v2_sliced_12_v2.jpg);
+        background-size: 250px 343px;
+        width: 250px!important;
+        height: 343px!important
+    }
+    td[class="product-lg-img3"] {
+        background-image: url(http://www.jigsaw-online.com/pws/client/images/emails/em917/EM917_v2_sliced_13_v2.jpg);
+        background-size: 250px 406px;
+        width: 250px!important;
+        height: 406px!important
+    }
+    td[class="product-lg-img4"] {
+        background-image: url(http://www.jigsaw-online.com/pws/client/images/emails/em909/EM909---Coat-weather_final_sliced_12.jpg);
+        background-size: 250px 495px;
+        width: 250px!important;
+        height: 495px!important
+    }
+    span[class=deviceClick6] {
+        display: block!important;
+        width: 250px!important;
+        height: 343px!important
+    }
+    span[class=deviceClick7] {
+        display: block!important;
+        width: 250px!important;
+        height: 343px!important
+    }
+    span[class=deviceClick8] {
+        display: block!important;
+        width: 250px!important;
+        height: 406px!important
+    }
+    span[class=deviceClick9] {
+        display: block!important;
+        width: 250px!important;
+        height: 495px!important
+    }
+    td[class="trousers"] {
+        background-image: url(http://www.jigsaw-online.com/pws/client/images/emails/em883/EM883_sliced_11_v2.jpg);
+        background-size: 300px 58px;
+        width: 300px!important;
+        height: 58px!important
+    }
+    img[class="hero-img"] {
+        display: none!important
+    }
+    img[class="hero-img2"] {
+        display: none!important
+    }
+    img[class="hero-img3"] {
+        display: none!important
+    }
+    img[class="hero-img4"] {
+        display: none!important
+    }
+    img[class="hero-img5"] {
+        display: none!important
+    }
+    img[class="hero-img6"] {
+        display: none!important
+    }
+    img[class="hero-img7"] {
+        display: none!important
+    }
+	img[class="hero-img8"] {
+        display: none!important
+    }
+	img[class="hero-img9"] {
+        display: none!important
+    }
+	img[class="hero-img10"] {
+        display: none!important
+    }
+    img[class="product-lg-img1"] {
+        display: none!important
+    }
+    img[class="product-lg-img2"] {
+        display: none!important
+    }
+    img[class="product-lg-img3"] {
+        display: none!important
+    }
+    img[class="product-lg-img4"] {
+        display: none!important
+    }
+    img[class="trousers"] {
+        display: none!important
+    }
+    img[class="headercell"] {
+        display: none!important
+    }
+    td[class="reduce-height"] {
+        height: 20px!important
+    }
+    td[class="hundred"] {
+        height: 20px!important
+    }
+    table[class="reorder"] {
+        width: 100%!important
+    }
+    table[class="twocolmob"],
+    td[class="twocolmob"],
+    img[class="twocolmob"] {
+        width: 150px!important;
+        height: auto!important
+    }
+    table[class="oneimagemobcol"],
+    td[class="oneimagemobcol"],
+    img[class="oneimagemobcol"] {
+        width: 141px!important;
+        height: auto!important
+    }
+    table[class="thinimagemobcol"],
+    td[class="thinimagemobcol"],
+    img[class="thinimagemobcol"] {
+        width: 38px!important;
+        height: auto!important
+    }
+    table[class="thickimagemobcol"],
+    td[class="thickimagemobcol"],
+    img[class="thickimagemobcol"] {
+        width: 107px!important;
+        height: auto!important
+    }
+    font[class="textreduce"] {
+        font-size: 18px!important
+    }
+    table[class="borderimg"],
+    td[class="borderimg"],
+    img[class="borderimg"] {
+        width: 50px!important
+    }
+    table[class="textblock"],
+    td[class="textblock"],
+    img[class="textblock"] {
+        width: 95%!important
+    }
+    table[class="imgblock"],
+    td[class="imgblock"],
+    img[class="imgblock"] {
+        width: 100%!important;
+        height: auto!important
+    }
+    table[class="widthreduce"] {
+        width: 100px!important
+    }
+    img[class="imghalf"] {
+        width: 300px!important;
+        height: auto
+    }
+    table[class="mobilecolumn"],
+    td[class="mobilecolumn"],
+    img[class="mobilecolumn"],
+    div[class="mobilecolumn"] {
+        width: 150px!important;
+        height: auto!important;
+        vertical-align: bottom!important
+    }
+    table[class="mobilecolumn-wide"],
+    td[class="mobilecolumn-wide"],
+    img[class="mobilecolumn-wide"],
+    div[class="mobilecolumn-wide"] {
+        width: 250px!important;
+        height: auto!important;
+        vertical-align: bottom!important
+    }
+    table[class="mobilesubcol-prod-lg"] {
+        width: 250px!important;
+        height: auto!important
+    }
+    table[class="mobilesubcol1"] {
+        width: 135px!important;
+        height: auto!important
+    }
+    table[class="mobilesubcol2"] {
+        width: 135px!important;
+        height: auto!important
+    }
+    table[class="mobilesubcol3"] {
+        width: 49%!important;
+        height: auto!important
+    }
+    table[class="mobilesubcol4"] {
+        width: 49%!important;
+        height: auto!important
+    }
+    td[class="mobilesubheading"] {
+        font-size: 14px!important
+    }
+    td[class="mobilesubcontent"] {
+        font-size: 12px!important;
+        line-height: 20px!important
+    }
+    td[class="mob-copy"] {
+        padding-left: 10px!important;
+        padding-right: 10px!important;
+    }
+	td[class="mob-copy2"] {
+        padding-left: 10px!important;
+        padding-right: 10px!important;
+    }
+	td[class="mob-copy3"] {
+        padding-left: 10px!important;
+        padding-right: 10px!important;
+		padding-bottom: 10px!important;
+    }
+    img[class="mobilesubcolimg"] {
+        width: 135px!important;
+        height: auto!important
+    }
+    img[class="mobilesubcolimg2"] {
+        width: 99%!important;
+        height: auto!important
+    }
+    img[class="mobilesubcolimg3"] {
+        width: 99%!important;
+        height: auto!important
+    }
+    span[class="text"] {
+        font-size: 14px
+    }
+    .full {
+        display: block;
+        width: 50%
+    }
+    .mobwidth {
+        width: 280px
+    }
+    .mobheight {
+        height: 20px
+    }
+}
+            
+</style>
+
+
+</head>
+
+<body bgcolor="#FFFFFF" style="-webkit-font-smoothing: antialiased;width: 100% !important;background: #ffffff;-webkit-text-size-adjust: none;/* [disabled]margin: 0;*/ padding: 0;letter-spacing: 0px;/* to mobile devices only by placing in the: ;" topmargin="0" leftmargin="0" marginheight="0" marginwidth="0" class="body_style">
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" summary="" class="body_style" style="table-layout: fixed;" align="center">
+	<tr>
+		<td align="center" class="main-header" style="-webkit-text-size-adjust: none;">
+			<!-- container -->
+			<table width="600" border="0" cellspacing="0" cellpadding="0" summary="" class="main-header" align="center" style="margin:0 auto;">
+
+
+<!-- ================================================= -->
+<!-- ============ responsive-email-two =============== -->
+<!-- ================================================= -->
+
+<tr style="background-color:#e0ced0;" align="center">
+    <td style="background-color:#e0ced0;margin:0 auto;" align="center">
+        <table style="background-color:#e0ced0;margin:0 auto;" width="600" border="0" cellspacing="0" cellpadding="0" summary="" class="main-body" dir="rtl" align="center">
+            <tr>
+                <td align="center" style="margin:0 auto;">
+
+                    <!--[if (gte mso 9)|(IE)]>
+                    <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" dir="rtl">
+                    <tr>
+                    <td valign="top" align="right" dir="ltr">
+                    <![endif]-->
+
+                    <!-- left -->
+
+                    <table width="300" align="right" cellpadding="0" cellspacing="0" border="0" class="reorder" dir="ltr">
+                        <tr>
+                            <td>
+                                <a href="" style="color:#000000;text-decoration:none;" target="_blank"><img src="https://jigsaw.btxmedia.com/pws/client/images/emails/em867/EM867_sliced_06.jpg" width="300" height="485" style="display:block;" border="0" class="main_img-body" alt="">
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <!-- left -->
+                    <!-- End of left column -->
+
+                    <!-- Start of right column -->
+                    <!--[if (gte mso 9)|(IE)]>
+                    </td><td valign="top" align="left" dir="ltr">
+                    <![endif]-->
+
+                    <!-- right -->
+                    <table style="background-color:#e0ced0;" width="300" align="left" cellpadding="0" cellspacing="0" border="0" class="reorder" dir="ltr">
+                        <tr>
+                            <td align="center">
+                                <table width="280" align="center" border="0" cellspacing="0" cellpadding="0" summary="" class="main-body">
+                                    <tr>
+                                        <td height="80" class="reduce-height">&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td align="center"><img src="https://jigsaw.btxmedia.com/pws/client/images/emails/em867/EM867_sliced_06_v2.jpg" width="150" height="90" style="display:block;" border="0" alt="">
+                                        </td>
+                                    </tr>
+
+                                    <!-- divider line -->
+                                    <tr>
+                                        <td align="center">
+                                            <table border="0" cellspacing="0" cellpadding="0" summary="" bgcolor="#e0ced3" align="center">
+                                                <tr>
+                                                    <td width="101" height="2" style="font-size:1px; line-height:0; mso-margin-top-alt:1px;">&nbsp;</td>
+                                                    <td bgcolor="#e0ced3" width="78" height="2" style="font-size:1px; line-height:0; mso-margin-top-alt:1px;">&nbsp;</td>
+                                                    <td width="101" height="2" style="font-size:1px; line-height:0; mso-margin-top-alt:1px;">&nbsp;</td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <!-- divider line -->
+
+                                    <tr>
+                                        <td>
+                                            <table border="0" cellspacing="0" cellpadding="0" summary="" bgcolor="#ffffff">
+
+                                            </table>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td height="30" style="font-size:1px; line-height:0; mso-margin-top-alt:1px;">&nbsp;</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td align="center" valign="middle" style="-webkit-text-size-adjust: none; font-size:17px; line-height:22px; letter-spacing:0.03em; color: #000000 !important; text-decoration: none;padding:0 15px;">Confident, cool with attitude. Just your best self, your second skin. That’s the secret to the Richmond.
+                                            <br>
+                                            <br><strong>Trust me</strong>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td height="30" style="font-size:1px; line-height:0; mso-margin-top-alt:1px;">&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td align="center" style="text-align:center; font-size:13px; padding-bottom:30px;"><a href="" style="color:#000000;text-decoration:underline;" target="_blank">Graphite Richmond Jeans</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                    <!-- right -->
+
+                    <!-- End of right column -->
+                    <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                    </tr>
+                    </table>
+                    <![endif]-->
+                </td>
+            </tr>
+        </table>
+    </td>
+    <tr>
+        <td height="1" style="font-size:1px; line-height:0; mso-margin-top-alt:1px;">&nbsp;</td>
+    </tr>
+</tr>
+
+<!-- ================================================= -->
+<!-- ============ responsive-email-two =============== -->
+<!-- ================================================= -->
+
+
+</table>
+</td>
+</tr>
+</table>
+
+</body>
+</html>
